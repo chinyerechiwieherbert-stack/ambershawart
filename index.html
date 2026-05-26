@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Art House by Amber Shaw</title>
+  <meta name="description" content="Amber Shaw — Contemporary Caribbean artist and multimedia sculptor from Tobago, Trinidad &amp; Tobago. Paintings, sculptures and mixed media archives celebrating the rich tapestry of Caribbean life." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <!-- ══════════════════ HEADER / NAVIGATION ══════════════════ -->
+  <header class="site-header" id="site-header">
+    <div class="header-roof" aria-hidden="true"></div>
+    <nav id="navbar" aria-label="Main navigation">
+      <div class="nav-inner">
+        <a href="#home" class="nav-logo" aria-label="Amber Shaw — Home">
+          <svg class="logo-svg" viewBox="0 0 200 56" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <polygon points="100,5 112,17 88,17" fill="var(--gold)" />
+            <text x="100" y="34" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="13.5" fill="currentColor" letter-spacing="3" font-weight="500">THE ART HOUSE</text>
+            <text x="100" y="46" text-anchor="middle" font-family="Jost, sans-serif" font-size="5.5" fill="currentColor" letter-spacing="4" font-weight="500">BY AMBER SHAW</text>
+          </svg>
+        </a>
+
+        <button class="nav-hamburger" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links" id="nav-links" role="list">
+          <li><a href="#home" class="nav-link" id="nl-home">Home</a></li>
+          <li><a href="#about" class="nav-link" id="nl-about">About Amber</a></li>
+          <li><a href="#gallery" class="nav-link" id="nl-gallery">Gallery</a></li>
+          <li><a href="#practice" class="nav-link" id="nl-practice">Practice</a></li>
+          <li><a href="#studio" class="nav-link" id="nl-studio">Studio</a></li>
+          <li><a href="#exhibitions" class="nav-link" id="nl-exhibitions">Exhibitions</a></li>
+          <li><a href="#contact" class="nav-link nav-cta" id="nl-contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ══════════════════ HERO ══════════════════ -->
+  <section id="home" class="hero">
+    <div class="hero-slides" aria-hidden="true">
+      <div class="hero-slide active" style="background-image:url('Main%20Slide%20Add%201.png')"></div>
+      <div class="hero-slide" style="background-image:url('Main%20Slide%20Add%202.png')"></div>
+      <div class="hero-slide" style="background-image:url('Main%20Page%20Slide%204%20Ver%202.png')"></div>
+    </div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-hero">Tobago, Trinidad &amp; Tobago</p>
+      <h1 class="hero-title reveal-hero">
+        <span>Amber Shaw</span>
+        <em>Contemporary Art &amp; Sculpture</em>
+      </h1>
+      <p class="hero-tagline reveal-hero">Recording the rich tapestry of Caribbean life —<br>one brushstroke at a time.</p>
+      <div class="hero-actions reveal-hero">
+        <a href="#gallery" class="btn btn-light" id="hero-gallery-btn">View Gallery</a>
+        <a href="#about" class="btn btn-ghost-light" id="hero-about-btn">Meet Amber</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-cue" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ MARQUEE ══════════════════ -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Painting</span><span class="dot">✦</span>
+      <span>Sculpture</span><span class="dot">✦</span>
+      <span>Multimedia</span><span class="dot">✦</span>
+      <span>Caribbean Heritage</span><span class="dot">✦</span>
+      <span>Tobago</span><span class="dot">✦</span>
+      <span>Carnival</span><span class="dot">✦</span>
+      <span>Culture</span><span class="dot">✦</span>
+      <span>Fine Art</span><span class="dot">✦</span>
+      <!-- duplicate for seamless loop -->
+      <span>Painting</span><span class="dot">✦</span>
+      <span>Sculpture</span><span class="dot">✦</span>
+      <span>Multimedia</span><span class="dot">✦</span>
+      <span>Caribbean Heritage</span><span class="dot">✦</span>
+      <span>Tobago</span><span class="dot">✦</span>
+      <span>Carnival</span><span class="dot">✦</span>
+      <span>Culture</span><span class="dot">✦</span>
+      <span>Fine Art</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════ ABOUT ══════════════════ -->
+  <section id="about" class="about section">
+    <div class="container about-grid">
+      <div class="about-images">
+        <div class="about-img-primary reveal">
+          <img src="67fc3dfe-c73c-47b0-91eb-4a1305fd3546.jpg" alt="Masqueraders Set of 3 — triptych painting by Amber Shaw" loading="lazy" />
+        </div>
+        <div class="about-img-secondary reveal">
+          <img src="d0c87e97-81d7-43a9-9506-1f92e3595398.jpg" alt="Figurative sculpture by Amber Shaw" loading="lazy" />
+          <div class="about-badge">
+            <span class="badge-num">20+</span>
+            <span class="badge-label">Years of Practice</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text reveal">
+        <span class="section-eyebrow">About Amber</span>
+        <h2 class="section-title">Academic Rigor &amp;<br>Institutional Leadership</h2>
+        <p class="about-lead">Amber Shaw is a multi-media artist who was raised in Tobago and whose work is a vivid celebration of Caribbean culture.</p>
+        <p>Awarded a full scholarship to the <strong>International Fine Arts College in Miami</strong>, where she attained her Bachelor of Fine Arts, Amber has spent over twenty years teaching, exhibiting and creating across Trinidad and Tobago.</p>
+        <p>Her work is inspired by <em>"simple everyday things"</em> — the rich tapestry of the island she grew up in. She works with pastels, acrylics, oils and colour pencils, and builds her figurative sculptures from wood, wire, papier-mâché, cement, steel and glass.</p>
+        <p>Amber's work is held in permanent collections at the <strong>Shaw Park Multi-Cultural Complex</strong>, the <strong>Scarborough Library</strong>, the <strong>Brix Hotel</strong>, and <strong>Comfort Inn &amp; Suites</strong>, Tobago. She currently serves as <strong>Secretary of the Tobago Visual Arts Association (TVAA)</strong> for the 2025–2027 term.</p>
+
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">BFA</span>
+            <span class="stat-label">Int'l Fine Arts College, Miami</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">TVAA</span>
+            <span class="stat-label">Secretary 2025–2027</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">Artsy</span>
+            <span class="stat-label">Listed Globally</span>
+          </div>
+        </div>
+
+        <a href="https://www.artsy.net/artist/amber-shaw" target="_blank" rel="noopener" class="btn btn-outline" id="artsy-link-btn">View on Artsy →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ GALLERY ══════════════════ -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Gallery</span>
+        <h2 class="section-title">Multimedia Gallery</h2>
+        <p class="section-sub">A dynamic exhibition space spanning traditional fine art to industrial sculpture.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="gallery-filters" id="gallery-filters" role="tablist">
+        <button class="filter-btn active" data-filter="all" id="filter-all" role="tab" aria-selected="true">All Works</button>
+        <button class="filter-btn" data-filter="traditional" id="filter-traditional" role="tab" aria-selected="false">Traditional Fine Art</button>
+        <button class="filter-btn" data-filter="contemporary" id="filter-contemporary" role="tab" aria-selected="false">Contemporary Art</button>
+        <button class="filter-btn" data-filter="sculpture" id="filter-sculpture" role="tab" aria-selected="false">Sculpture</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="gallery-grid">
+
+        <!-- Featured: Abstract Pieces (full width) -->
+        <div class="gallery-item gallery-featured contemporary reveal" data-filter="contemporary" id="gitem-centerpiece" data-title="Abstract Pieces 'Of One's Self' 'Skin' 'Wings'" data-medium="Acrylic on Wood · Triptych" data-year="2024">
+          <div class="gallery-img-wrap gallery-img-wrap--massive">
+            <img src="7607f1be-9b97-461b-82a6-88b4ae20e5b6.jpg" alt="Abstract Pieces 'Of One's Self' 'Skin' 'Wings' by Amber Shaw" loading="lazy" />
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-inner">
+                <h3>Abstract Pieces 'Of One's Self' 'Skin' 'Wings'</h3>
+                <span>2024 · Acrylic on Wood</span>
+                <button class="btn-enquire" onclick="openEnquire('Abstract Pieces &apos;Of One&apos;s Self&apos; &apos;Skin&apos; &apos;Wings&apos;')">Enquire →</button>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Abstract Pieces 'Of One's Self' 'Skin' 'Wings'</h3>
+            <span class="gallery-medium">Acrylic on Wood · Triptych · 2024</span>
+          </div>
+        </div>
+
+        <!-- Pan Side I -->
+        <div class="gallery-item contemporary reveal" id="gitem-pan-side" data-filter="contemporary" data-title="Pan Side I" data-medium="Acrylic/Multimedia" data-year="2024">
+          <div class="gallery-frame">
+            <div class="gallery-img-wrap">
+              <img src="8ba262d1-cf94-4bc8-83f5-108196febd4d.jpg" alt="Pan Side painting series by Amber Shaw" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-overlay-inner">
+                  <h3>Pan Side I</h3>
+                  <span>2024 · Acrylic/Multimedia</span>
+                  <button class="btn-enquire" onclick="openEnquire('Pan Side I')">Enquire →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Pan Side I</h3>
+            <span class="gallery-medium">Acrylic/Multimedia · 2024</span>
+          </div>
+        </div>
+
+        <!-- Mood II -->
+        <div class="gallery-item contemporary reveal" id="gitem-mood-ii" data-filter="contemporary" data-title="Mood II" data-medium="Acrylic on Wood" data-year="2024">
+          <div class="gallery-frame">
+            <div class="gallery-img-wrap">
+              <img src="mood-ii.jpg" alt="Mood II painting by Amber Shaw" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-overlay-inner">
+                  <h3>Mood II</h3>
+                  <span>2024 · Acrylic on Wood</span>
+                  <button class="btn-enquire" onclick="openEnquire('Mood II')">Enquire →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Mood II</h3>
+            <span class="gallery-medium">Acrylic on Wood · 2024</span>
+          </div>
+        </div>
+
+        <!-- Mood VI -->
+        <div class="gallery-item contemporary reveal" id="gitem-mood-vi" data-filter="contemporary" data-title="Mood VI" data-medium="Acrylic/Multimedia" data-year="2024">
+          <div class="gallery-frame">
+            <div class="gallery-img-wrap">
+              <img src="bc48ecea-71c1-46a1-9a58-8ecf8f10396b.jpg" alt="Mood VI painting by Amber Shaw" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-overlay-inner">
+                  <h3>Mood VI</h3>
+                  <span>2024 · Acrylic/Multimedia</span>
+                  <button class="btn-enquire" onclick="openEnquire('Mood VI')">Enquire →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Mood VI</h3>
+            <span class="gallery-medium">Acrylic/Multimedia · 2024</span>
+          </div>
+        </div>
+
+        <!-- Masqueraders Set of 3 -->
+        <div class="gallery-item contemporary reveal" id="gitem-masqueraders-acrylic" data-filter="contemporary" data-title="Masqueraders Set of 3" data-medium="Acrylic on Wood · Triptych" data-year="2025">
+          <div class="gallery-frame">
+            <div class="gallery-img-wrap">
+              <img src="67fc3dfe-c73c-47b0-91eb-4a1305fd3546.jpg" alt="Masqueraders Set of 3 triptych painting by Amber Shaw" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-overlay-inner">
+                  <h3>Masqueraders Set of 3</h3>
+                  <span>2025 · Acrylic on Wood</span>
+                  <button class="btn-enquire" onclick="openEnquire('Masqueraders Set of 3')">Enquire →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Masqueraders Set of 3</h3>
+            <span class="gallery-medium">Acrylic on Wood · 2025</span>
+          </div>
+        </div>
+
+        <!-- The Serenade Set of 3 -->
+        <div class="gallery-item traditional reveal" id="gitem-the-serenade" data-filter="traditional" data-title="The Serenade Set of 3" data-medium="Acrylic on Wood · Triptych" data-year="2024">
+          <div class="gallery-frame">
+            <div class="gallery-img-wrap">
+              <img src="84462e80-5820-4839-8b6a-607543af9508.jpg" alt="The Serenade Set of 3 triptych painting by Amber Shaw" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-overlay-inner">
+                  <h3>The Serenade Set of 3</h3>
+                  <span>2024 · Acrylic on Wood</span>
+                  <button class="btn-enquire" onclick="openEnquire('The Serenade Set of 3')">Enquire →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h3>The Serenade Set of 3</h3>
+            <span class="gallery-medium">Acrylic on Wood · 2024</span>
+          </div>
+        </div>
+
+        <!-- Mokos at Play Set of 3 -->
+        <div class="gallery-item traditional reveal" id="gitem-mokos-at-play" data-filter="traditional" data-title="Mokos at Play Set of 3" data-medium="Acrylic on Wood · Triptych" data-year="2023">
+          <div class="gallery-frame">
+            <div class="gallery-img-wrap">
+              <img src="f240ca26-a73f-40cf-91ea-02b4818bae00.jpg" alt="Mokos at Play Set of 3 triptych painting by Amber Shaw" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-overlay-inner">
+                  <h3>Mokos at Play Set of 3</h3>
+                  <span>2023 · Acrylic on Wood</span>
+                  <button class="btn-enquire" onclick="openEnquire('Mokos at Play Set of 3')">Enquire →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Mokos at Play Set of 3</h3>
+            <span class="gallery-medium">Acrylic on Wood · 2023</span>
+          </div>
+        </div>
+
+        <!-- SCULPTURE DIVIDER -->
+        <div class="gallery-divider reveal gallery-item sculpture" id="sculpture-divider">
+          <div class="divider-line"></div>
+          <span>Sculpture</span>
+          <div class="divider-line"></div>
+        </div>
+
+        <!-- Amerindian Illumination -->
+        <div class="gallery-item sculpture reveal" id="gitem-amerindian" data-filter="sculpture" data-title="Amerindian Illumination" data-medium="Steel, Cement, Hand Painted Glass" data-year="2019">
+          <div class="gallery-frame gallery-frame--sculpture">
+            <div class="gallery-img-wrap gallery-img-wrap--sculpture">
+              <img src="3d5aa6cd-b284-4b45-af25-e4762aac0dc1.jpg" alt="Amerindian Illumination steel cement sculpture by Amber Shaw" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-overlay-inner">
+                  <h3>Amerindian Illumination</h3>
+                  <span>2019 · Steel, Cement, Hand Painted Glass</span>
+                  <button class="btn-enquire" onclick="openEnquire('Amerindian Illumination')">Enquire →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Amerindian Illumination</h3>
+            <span class="gallery-medium">Steel, Cement, Hand Painted Glass · 2019</span>
+            <p class="gallery-desc">Exhibited at the National Museum &amp; Art Gallery, Port of Spain.</p>
+          </div>
+        </div>
+
+        <!-- Tobago Doll -->
+        <div class="gallery-item sculpture reveal" id="gitem-tobago-doll" data-filter="sculpture" data-title="Tobago Doll" data-medium="Cement, Steel, Cloth" data-year="2021">
+          <div class="gallery-frame gallery-frame--sculpture">
+            <div class="gallery-img-wrap gallery-img-wrap--sculpture">
+              <img src="d0c87e97-81d7-43a9-9506-1f92e3595398.jpg" alt="Tobago Doll sculpture by Amber Shaw" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-overlay-inner">
+                  <h3>Tobago Doll</h3>
+                  <span>2021 · Cement, Steel, Cloth</span>
+                  <button class="btn-enquire" onclick="openEnquire('Tobago Doll')">Enquire →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Tobago Doll</h3>
+            <span class="gallery-medium">Cement, Steel, Cloth · 2021</span>
+          </div>
+        </div>
+
+        <!-- Untitled Figure -->
+        <div class="gallery-item sculpture reveal" id="gitem-untitled-fig" data-filter="sculpture" data-title="Untitled Figure" data-medium="Papier-mâché, Wire, Mixed Media" data-year="2022">
+          <div class="gallery-frame gallery-frame--sculpture">
+            <div class="gallery-img-wrap gallery-img-wrap--sculpture">
+              <img src="23f8aa3c-4fbf-4e91-acbe-9b211cf5583f.jpg" alt="Untitled figurative sculpture by Amber Shaw" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-overlay-inner">
+                  <h3>Untitled Figure</h3>
+                  <span>2022 · Papier-mâché, Wire</span>
+                  <button class="btn-enquire" onclick="openEnquire('Untitled Figure')">Enquire →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Untitled Figure</h3>
+            <span class="gallery-medium">Papier-mâché, Wire, Mixed Media · 2022</span>
+          </div>
+        </div>
+
+      </div><!-- /gallery-grid -->
+
+      <div class="gallery-footer reveal">
+        <p>Prices available upon request.</p>
+        <a href="#contact" class="btn btn-primary" id="gallery-enquire-btn">Enquire About a Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ PROCESS ══════════════════ -->
+  <section id="practice" class="practice section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Practice</span>
+        <h2 class="section-title">Where Craft Meets Culture</h2>
+      </div>
+      <div class="practice-grid">
+        <div class="practice-card reveal" id="practice-painting">
+          <div class="practice-num">01</div>
+          <h3>Painting</h3>
+          <p>Working with pastels, acrylics, oils and colour pencils — often on wood panels that themselves carry a sculptural dimension.</p>
+          <ul>
+            <li>Acrylic on Canvas</li>
+            <li>Acrylic on Wood</li>
+            <li>Oils &amp; Pastels</li>
+            <li>Colour Pencil</li>
+          </ul>
+        </div>
+        <div class="practice-card reveal" id="practice-sculpture">
+          <div class="practice-num">02</div>
+          <h3>Sculpture</h3>
+          <p>Figurative forms built from wire, papier-mâché, cement, steel, cloth and glass — each material a deliberate cultural choice.</p>
+          <ul>
+            <li>Steel &amp; Wire</li>
+            <li>Papier-mâché</li>
+            <li>Cement &amp; Glass</li>
+            <li>Found Materials</li>
+          </ul>
+        </div>
+        <div class="practice-card reveal" id="practice-theme">
+          <div class="practice-num">03</div>
+          <h3>Themes</h3>
+          <p>Rooted in the everyday beauty of Tobago — the Carnival, the Cocoa farmers, the steelband, sensitizing others to the importance of preserving the natural environment — elevated to fine art.</p>
+          <ul>
+            <li>Carnival &amp; Masquerade</li>
+            <li>Steelband &amp; Music</li>
+            <li>Caribbean Women</li>
+            <li>Ecological Heritage</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ VIDEO ══════════════════ -->
+  <section id="studio" class="video-section section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Studio</span>
+        <h2 class="section-title">The Work in Motion</h2>
+      </div>
+      <div class="video-grid reveal">
+        <div class="video-wrap">
+          <video src="cb3cbf62-31a6-4dcf-9e3a-89bae27ee50d.mp4" controls muted loop playsinline poster="84462e80-5820-4839-8b6a-607543af9508.jpg" id="studio-video-1">
+            Your browser does not support the video element.
+          </video>
+        </div>
+        <div class="video-wrap">
+          <video src="VID-20260507-WA0004.mp4" controls muted loop playsinline id="studio-video-2">
+            Your browser does not support the video element.
+          </video>
+        </div>
+        <div class="video-wrap">
+          <video src="VID-20260507-WA0006.mp4" controls muted loop playsinline id="studio-video-3">
+            Your browser does not support the video element.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ EXHIBITIONS ══════════════════ -->
+  <section id="exhibitions" class="exhibitions section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Exhibitions</span>
+        <h2 class="section-title">On the Stage</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal" id="ex-2025">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2025</div>
+          <div class="timeline-body">
+            <span class="timeline-tag upcoming">Upcoming</span>
+            <h3>New Faces 2026</h3>
+            <p>Horizons Art Gallery, Trinidad · Group Exhibition</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" id="ex-carifesta">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2024</div>
+          <div class="timeline-body">
+            <span class="timeline-tag">Regional</span>
+            <h3>Carifesta XIV</h3>
+            <p><em>Mokos at Play</em> — an exploration of stilt-walkers as symbols of Caribbean spiritual resilience.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" id="ex-element">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2024</div>
+          <div class="timeline-body">
+            <span class="timeline-tag">Group Exhibition</span>
+            <h3>In Our Element</h3>
+            <p>Horizons Art Gallery, Trinidad · Joint exhibition with Hazel Marshall featuring pan men and Caribbean life.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" id="ex-osmosis">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2022</div>
+          <div class="timeline-body">
+            <span class="timeline-tag">Group Exhibition</span>
+            <h3>Osmosis</h3>
+            <p>The Art Gallery · Themed around "watering the art culture of Tobago" — bridging with the Trinidad art world.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" id="ex-national">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2019</div>
+          <div class="timeline-body">
+            <span class="timeline-tag">National</span>
+            <h3>National Museum &amp; Art Gallery of T&amp;T</h3>
+            <p><em>Amerindian Illumination</em> — steel and cement installation exhibited at the National Museum, Port of Spain.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" id="ex-heritage">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year"></div>
+          <div class="timeline-body">
+            <span class="timeline-tag debut">Debut</span>
+            <h3>Tobago Heritage Museum, Fort George</h3>
+            <p>First public exhibition — a depiction of the Buccoo Reef, establishing a lifelong commitment to ecological recording.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ CONTACT ══════════════════ -->
+  <section id="contact" class="contact section">
+    <div class="container contact-grid">
+      <div class="contact-text reveal">
+        <span class="section-eyebrow">Contact</span>
+        <h2 class="section-title">Contact &amp;<br>Acquisitions</h2>
+        <p>Whether you're a collector, gallery, or organisation interested in Amber's work, we'd love to hear from you. Prices are available upon request.</p>
+
+        <div class="contact-details">
+          <div class="contact-item" id="contact-email">
+            <div class="contact-icon" aria-hidden="true">✉</div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:ambershaw36@hotmail.com">ambershaw36@hotmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-phone">
+            <div class="contact-icon" aria-hidden="true">📞</div>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:+18687715455">868-771-5455</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal">
+        <form class="contact-form" id="contact-form" onsubmit="handleFormSubmit(event)">
+          <h3>Send a Message</h3>
+          <div class="form-group">
+            <label for="cf-name">Your Name</label>
+            <input type="text" id="cf-name" name="name" placeholder="e.g. Jane Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email Address</label>
+            <input type="email" id="cf-email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="cf-subject">Subject</label>
+            <select id="cf-subject" name="subject">
+              <option value="Artwork Enquiry">Artwork Enquiry</option>
+              <option value="Commission">Commission</option>
+              <option value="Gallery Partnership">Gallery Partnership</option>
+              <option value="Press / Media">Press / Media</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" placeholder="Tell us about your enquiry..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="cf-submit">Send Message</button>
+          <p class="form-note">Your message will be sent directly to Amber.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ FOOTER ══════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <svg class="logo-svg logo-svg--footer" viewBox="0 0 200 56" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <polygon points="100,5 112,17 88,17" fill="var(--gold)" />
+          <text x="100" y="34" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="13.5" fill="#fdfaf0" letter-spacing="3" font-weight="500">THE ART HOUSE</text>
+          <text x="100" y="46" text-anchor="middle" font-family="Jost, sans-serif" font-size="5.5" fill="#eadeca" letter-spacing="4" font-weight="500">BY AMBER SHAW</text>
+        </svg>
+        <p>Trinidad &amp; Tobago</p>
+
+      </div>
+
+      <div class="footer-copy">
+        <p>© 2025 Amber Natasha Shaw. All artworks are the intellectual property of the artist.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════ LIGHTBOX ══════════════════ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Artwork viewer">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close artwork viewer">✕</button>
+    <div class="lightbox-inner">
+      <img src="" alt="" id="lightbox-img" />
+      <div class="lightbox-info">
+        <h3 id="lightbox-title"></h3>
+        <p id="lightbox-medium"></p>
+        <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1rem; flex-wrap: wrap;">
+          <button class="btn btn-primary" id="lightbox-enquire-btn">Enquire About This Work</button>
+          <button class="btn btn-ghost-light" id="lightbox-back-btn">Back to Gallery</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+
+  <!-- ══════════════════ TOAST ══════════════════ -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span id="toast-msg"></span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
